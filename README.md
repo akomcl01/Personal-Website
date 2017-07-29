@@ -1,5 +1,7 @@
 **Challenge**
-A Portfolio website (Class Project). THis was my first attempt at creating a website.
+
+A Portfolio website (Class Project). 
+This was my first attempt at creating a website.
 
 **Objectives**
 * Each page links to each of the others -- Navigation is obvious, consistently located, and visible without scrolling
