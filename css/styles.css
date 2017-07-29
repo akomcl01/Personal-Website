@@ -1,0 +1,72 @@
+@charset "utf-8";
+    @font-face{
+        font-family: Quicksand;
+        src: url('Quicksand-Regular.woff') format('woff');
+        src: url('Quicksand-Regular.tff') format('truetype');        
+    }  
+    @font-face{
+        font-family: Bebas Neue;
+        src: url('Bebas Neue.woff') format('woff');
+        src: url('Bebas Neue.tff') format('truetype');   
+    }  
+
+/* HTML Styles */
+
+
+/* Page Body Styles */
+/*body {
+    background-image: url("/images/homepage_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+
+
+/* Nav Bar Header Styles */
+li{
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #f3f3f3;
+}
+
+li a.active {
+    color: white;
+    cursor: pointer;
+}
+
+/* Section Styles */
+h1{
+    color: black;
+    text-align: center;
+    font-size: 72px;
+    font-family: Bebas Neue;
+}
+
+h2{
+    text-align: center;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: white;
+    border-top: 1px solid grey;
+    
+}
